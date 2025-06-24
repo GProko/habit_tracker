@@ -9,12 +9,4 @@
 ## Keywords
 Habit, Productivity, Tracker, Self-improvement, Daily habits
 
-## Media Assets
-- **App icon**: `icon.png` (512x512 px)
-- **Screenshots**:
-  1. `screenshot1.png` - Login Page
-  2. `screenshot2.png` - Home Page
-  3. `screenshot3.png` - Reports Page
-  4. `screenshot4.png` - Settings Menu
-  5. `screenshot5.png` - Notifications Page
-- **Promotional video**: `promo_video.mp4` (15 seconds, hosted on YouTube: [Link](https://youtube.com/example))
+
