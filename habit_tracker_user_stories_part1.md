@@ -1,21 +1,6 @@
 
-# Habit Tracker User Stories
 
-## User Story Template
-**Title:**  
-_As a [user role], I want [feature/goal], so that [reason]._  
-**Acceptance Criteria:**  
-1. [Criteria 1]  
-2. [Criteria 2]  
-3. [Criteria 3]  
-**Priority:** [High/Medium/Low]  
-**Story Points:** [Estimated Effort in Points]  
-**Notes:**  
-- [Additional information or edge cases]
-
----
-
-## Exercise 2: Login/Registration Page
+## Login/Registration Page
 
 ### Account Registration
 **Title:**  
@@ -55,7 +40,7 @@ _As a user, I want to receive a message if I enter the wrong username or passwor
 
 ---
 
-## Exercise 3: Homepage
+##  Homepage
 
 ### View Welcome Message
 **Title:**  
@@ -95,7 +80,7 @@ _As a user, I want to see a section for completed habits on the homepage, so tha
 
 ---
 
-## Exercise 4: Menu
+##  Menu
 
 ### Access Menu Options
 **Title:**  
@@ -137,7 +122,7 @@ _As a user, I want to sign out of my account using an option in the menu, so tha
 
 ---
 
-## Exercise 5: Profile Page
+## Profile Page
 
 ### View Personal Information
 **Title:**  
@@ -189,7 +174,7 @@ _As a user, I want my updated name to be displayed in the app's header after I c
 
 ---
 
-## Exercise 6: Habits Page
+## Habits Page
 
 ### Add a New Habit
 **Title:**  
@@ -229,7 +214,7 @@ _As a user, I want to assign a specific color to each habit to make it personal 
 
 ---
 
-## Exercise 7: Reports Page
+## Reports Page
 
 ### View Weekly Reports
 **Title:**  
@@ -269,7 +254,7 @@ _As a user, I want to see both completed and incomplete habits in my report, so 
 
 ---
 
-## Exercise 8: Notifications Page
+## Notifications Page
 
 ### Enable/Disable Notifications
 **Title:**  
@@ -306,347 +291,3 @@ _As a user, I want to have the option to receive notifications three times a day
 **Story Points:** 2  
 **Notes:**  
 - Customizable reminder times improve user engagement.
-
----
-
-## Exercise 5: Profile Page
-
-### View Personal Information
-**Title:**  
-_As a user, I want to view my saved name, username, age, and country on my profile page, so that I can see the details I provided during registration._  
-**Acceptance Criteria:**  
-1. Profile displays all stored personal details.  
-2. Information is read-only by default.  
-3. Accurate reflection of registration data.  
-**Priority:** Medium  
-**Story Points:** 1  
-**Notes:**  
-- Data should be securely retrieved.
-
-### Edit Personal Information
-**Title:**  
-_As a user, I want to update my name, username, age, and country on my profile page, so that I can keep my information up to date._  
-**Acceptance Criteria:**  
-1. Fields become editable when edit is initiated.  
-2. Validation is enforced on update.  
-3. Form displays feedback after update.  
-**Priority:** High  
-**Story Points:** 2  
-**Notes:**  
-- Consider required vs optional fields.
-
-### Save Updated Information
-**Title:**  
-_As a user, I want the changes I make to my profile to be saved, so that my updated details are stored and reflected throughout the app._  
-**Acceptance Criteria:**  
-1. Changes persist after save.  
-2. Confirmation message is shown.  
-3. Update propagates to all dependent screens.  
-**Priority:** High  
-**Story Points:** 2  
-**Notes:**  
-- Avoid overwriting other fields accidentally.
-
-### Update Name in Header
-**Title:**  
-_As a user, I want my updated name to be displayed in the app's header after I change it in the profile, so that my changes are immediately visible._  
-**Acceptance Criteria:**  
-1. Header reflects updated name.  
-2. Change appears without needing a refresh.  
-3. Old name is removed from memory.  
-**Priority:** Medium  
-**Story Points:** 1  
-**Notes:**  
-- Test across all screens where header appears.
-
----
-
-## Exercise 6: Habits Page
-
-### Add a New Habit
-**Title:**  
-_As a user, I want to add new habits on the details configuration page so that I can manage and update my habits as needed._  
-**Acceptance Criteria:**  
-1. Add habit button leads to a form.  
-2. Form accepts name and optional color.  
-3. New habit appears on the homepage.  
-**Priority:** High  
-**Story Points:** 2  
-**Notes:**  
-- Default values should be handled properly.
-
-### Delete a Habit
-**Title:**  
-_As a user, I want to delete existing habits so that I can keep my habits up to date._  
-**Acceptance Criteria:**  
-1. Delete option is clearly visible.  
-2. Confirmation is required before delete.  
-3. Deleted habit is removed from all displays.  
-**Priority:** High  
-**Story Points:** 1  
-**Notes:**  
-- Must prevent accidental deletion.
-
-### Personalize a Habit with Color
-**Title:**  
-_As a user, I want to assign a specific color to each habit to make it personal to me._  
-**Acceptance Criteria:**  
-1. Color picker is available on add/edit.  
-2. Habit reflects chosen color in UI.  
-3. Color setting persists.  
-**Priority:** Medium  
-**Story Points:** 1  
-**Notes:**  
-- Useful for visual differentiation.
-
----
-
-## Exercise 7: Reports Page
-
-### View Weekly Reports
-**Title:**  
-_As a user, I want to see a report of my weekly habit progress so that I can understand how well I am maintaining my habits._  
-**Acceptance Criteria:**  
-1. Reports include all tracked habits.  
-2. Time frame is clearly indicated.  
-3. Weekly data is summarized in a user-friendly format.  
-**Priority:** High  
-**Story Points:** 3  
-**Notes:**  
-- Week starts on Monday (or configurable).
-
-### Visualize Completed Habits
-**Title:**  
-_As a user, I want to see a chart of my completed habits for each day of the week so that I can quickly identify trends in my progress._  
-**Acceptance Criteria:**  
-1. Each habit shown with daily status.  
-2. Visualization is easy to interpret (bar/pie/line).  
-3. Updates dynamically as habits are completed.  
-**Priority:** Medium  
-**Story Points:** 2  
-**Notes:**  
-- Color-coding should match habit color.
-
-### View All Habits
-**Title:**  
-_As a user, I want to see both completed and incomplete habits in my report so that I have a comprehensive view of my habit tracking performance._  
-**Acceptance Criteria:**  
-1. Both states clearly marked.  
-2. Incomplete entries highlighted distinctly.  
-3. Data is filterable by day or habit.  
-**Priority:** Medium  
-**Story Points:** 2  
-**Notes:**  
-- Helps with end-of-week reviews.
-
----
-
-## Exercise 8: Notifications Page
-
-### Enable/Disable Notifications
-**Title:**  
-_As a user, I want to be able to enable or disable notifications for the app, so that I can choose whether or not to receive reminders for my habits._  
-**Acceptance Criteria:**  
-1. Global toggle to enable/disable notifications.  
-2. Saves state between sessions.  
-3. Affects all notification behavior in the app.  
-**Priority:** High  
-**Story Points:** 2  
-**Notes:**  
-- Requires permission management on mobile.
-
-### Add Habits for Notifications
-**Title:**  
-_As a user, I want to select specific habits to receive notifications for, so that I only get reminders for the habits I am actively working on._  
-**Acceptance Criteria:**  
-1. List of habits shows toggle for each.  
-2. Saves selected notification habits.  
-3. Only selected habits trigger reminders.  
-**Priority:** Medium  
-**Story Points:** 2  
-**Notes:**  
-- Can be extended to batch select.
-
-### Set Notification Times
-**Title:**  
-_As a user, I want to have the option to receive notifications three times a day (morning, afternoon, evening) for all selected habits, so that I get timely reminders throughout the day to complete my habits._  
-**Acceptance Criteria:**  
-1. Three time slots configurable.  
-2. Applies to all selected habits.  
-3. Notification triggers respect device settings.  
-**Priority:** High  
-**Story Points:** 3  
-**Notes:**  
-- Support for time zone handling required.
-
----
-
-## Exercise 5: Profile Page
-
-### View Personal Information
-**Title:**  
-_As a user, I want to view my saved name, username, age, and country on my profile page, so that I can see the details I provided during registration._  
-**Acceptance Criteria:**  
-1. Personal details are displayed accurately.  
-2. Page loads with data fetched from the user’s record.  
-3. Information is read-only until edit is initiated.  
-**Priority:** Medium  
-**Story Points:** 1  
-**Notes:**  
-- Ensures transparency of stored data.
-
-### Edit Personal Information
-**Title:**  
-_As a user, I want to update my name, username, age, and country on my profile page, so that I can keep my information up to date._  
-**Acceptance Criteria:**  
-1. Fields become editable when edit mode is activated.  
-2. Inputs validate correct formats.  
-3. Changes are saved only upon confirmation.  
-**Priority:** High  
-**Story Points:** 3  
-**Notes:**  
-- Includes validation and error feedback.
-
-### Save Updated Information
-**Title:**  
-_As a user, I want the changes I make to my profile to be saved, so that my updated details are stored and reflected throughout the app._  
-**Acceptance Criteria:**  
-1. Updated info is stored in the database.  
-2. Confirmation message is displayed.  
-3. Other parts of the app reflect changes immediately.  
-**Priority:** High  
-**Story Points:** 2  
-**Notes:**  
-- Syncs updates across views.
-
-### Update Name in Header
-**Title:**  
-_As a user, I want my updated name to be displayed in the app's header after I change it in the profile, so that my changes are immediately visible._  
-**Acceptance Criteria:**  
-1. Header updates in real time after save.  
-2. Page refresh is not required.  
-3. Name appears consistently across views.  
-**Priority:** Medium  
-**Story Points:** 1  
-**Notes:**  
-- Ensures a responsive UX.
-
----
-
-## Exercise 6: Habits Page
-
-### Add a New Habit
-**Title:**  
-_As a user, I want to add new habits on the details configuration page so that I can manage and update my habits as needed._  
-**Acceptance Criteria:**  
-1. Users can enter a habit name and details.  
-2. New habit is added to the list and tracked.  
-3. Validation ensures no duplicates or blanks.  
-**Priority:** High  
-**Story Points:** 2  
-**Notes:**  
-- Could use modal or inline entry.
-
-### Delete a Habit
-**Title:**  
-_As a user, I want to delete existing habits so that I can keep my habits up to date._  
-**Acceptance Criteria:**  
-1. Each habit has a delete option.  
-2. Confirm delete before removal.  
-3. Habit is removed from all tracking.  
-**Priority:** High  
-**Story Points:** 2  
-**Notes:**  
-- Includes confirmation dialog.
-
-### Personalize a Habit with Color
-**Title:**  
-_As a user, I want to assign a specific color to each habit to make it personal to me._  
-**Acceptance Criteria:**  
-1. Users choose from a color palette.  
-2. Color shows on habit card or tracker.  
-3. Color is saved and persists.  
-**Priority:** Medium  
-**Story Points:** 1  
-**Notes:**  
-- Enhances visual organization.
-
----
-
-## Exercise 7: Reports Page
-
-### View Weekly Reports
-**Title:**  
-_As a user, I want to see a report of my weekly habit progress so that I can understand how well I am maintaining my habits._  
-**Acceptance Criteria:**  
-1. Data is grouped by habit and day.  
-2. Displays summaries or trends.  
-3. Updates as habits are tracked.  
-**Priority:** High  
-**Story Points:** 3  
-**Notes:**  
-- Could be in text or visual format.
-
-### Visualize Completed Habits
-**Title:**  
-_As a user, I want to see a chart of my completed habits for each day of the week so that I can quickly identify trends in my progress._  
-**Acceptance Criteria:**  
-1. Chart type (bar/pie/line) shows daily counts.  
-2. Visually distinct completed/incomplete.  
-3. Accessible and clear labeling.  
-**Priority:** Medium  
-**Story Points:** 2  
-**Notes:**  
-- Adds insight into consistency.
-
-### View All Habits
-**Title:**  
-_As a user, I want to see both completed and incomplete habits in my report so that I have a comprehensive view of my habit tracking performance._  
-**Acceptance Criteria:**  
-1. Report includes all habits.  
-2. Clear indicator of status.  
-3. Filters or legends for clarity.  
-**Priority:** Medium  
-**Story Points:** 2  
-**Notes:**  
-- Useful for self-analysis.
-
----
-
-## Exercise 8: Notifications Page
-
-### Enable/Disable Notifications
-**Title:**  
-_As a user, I want to be able to enable or disable notifications for the app, so that I can choose whether or not to receive reminders for my habits._  
-**Acceptance Criteria:**  
-1. Toggle switch for notifications.  
-2. Changes take effect immediately.  
-3. App respects user preference consistently.  
-**Priority:** High  
-**Story Points:** 2  
-**Notes:**  
-- Must comply with OS-level permissions.
-
-### Add Habits for Notifications
-**Title:**  
-_As a user, I want to select specific habits to receive notifications for, so that I only get reminders for the habits I am actively working on._  
-**Acceptance Criteria:**  
-1. Checklist or selection UI available.  
-2. Habits are tied to notification schedule.  
-3. Selection is saved persistently.  
-**Priority:** High  
-**Story Points:** 2  
-**Notes:**  
-- Avoid overwhelming the user.
-
-### Set Notification Times
-**Title:**  
-_As a user, I want to have the option to receive notifications three times a day (morning, afternoon, evening) for all selected habits, so that I get timely reminders throughout the day to complete my habits._  
-**Acceptance Criteria:**  
-1. User can set time slots.  
-2. Notifications are triggered at set times.  
-3. Configurable per habit or globally.  
-**Priority:** High  
-**Story Points:** 3  
-**Notes:**  
-- Uses system alarms or background services.
